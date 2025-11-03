@@ -1,0 +1,68 @@
+# -------------------------------
+# Python / Pipenv environment
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+.env
+.venv/
+venv/
+pip-wheel-metadata/
+Pipfile.lock
+
+# -------------------------------
+# Pipenv / virtualenv metadata
+# -------------------------------
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+*.db
+
+# -------------------------------
+# Ansible specific
+# -------------------------------
+# Local inventory caches or retry files
+*.retry
+.cache/
+.fact_cache/
+ansible.log
+
+# Vault passwords or sensitive files
+*.vault_pass
+.vault_pass.txt
+vault-password.txt
+
+# Temporary playbook outputs
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# -------------------------------
+# SSH keys or sensitive credentials
+# -------------------------------
+*.pem
+*.key
+*.pub
+id_rsa*
+id_ed25519*
+known_hosts
+
+# -------------------------------
+# OS / Editor files
+# -------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+
+# -------------------------------
+# Testing / Molecule (if added later)
+# -------------------------------
+.molecule/
+tests/
