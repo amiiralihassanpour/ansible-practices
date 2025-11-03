@@ -25,5 +25,5 @@ pipenv shell
 pipenv install ansible-core ansible-lint
 ```
 
-**Note**: Make sure your local env has ssh access to your managed nodes.
-**Note**: Make sure customizing your own `inventory.ini` file.
+- **Note**: Make sure your local env has ssh access to your managed nodes.
+- **Note**: Make sure customizing your own `inventory.ini` file.
